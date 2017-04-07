@@ -12,6 +12,7 @@
 		A072CD3B1E96FC3F00A1D2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A072CD391E96FC3F00A1D2BA /* Main.storyboard */; };
 		A072CD3D1E96FC3F00A1D2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A072CD3C1E96FC3F00A1D2BA /* Assets.xcassets */; };
 		A072CD401E96FC3F00A1D2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A072CD3E1E96FC3F00A1D2BA /* LaunchScreen.storyboard */; };
+		A0FE40811E973ED800306678 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE40801E973ED800306678 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A072CD3C1E96FC3F00A1D2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A072CD3F1E96FC3F00A1D2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A072CD411E96FC3F00A1D2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FE40801E973ED800306678 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A072CD3C1E96FC3F00A1D2BA /* Assets.xcassets */,
 				A072CD3E1E96FC3F00A1D2BA /* LaunchScreen.storyboard */,
 				A072CD411E96FC3F00A1D2BA /* Info.plist */,
+				A0FE40801E973ED800306678 /* ProfileViewController.swift */,
 			);
 			path = TinderClone;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				A072CD381E96FC3F00A1D2BA /* ViewController.swift in Sources */,
 				A072CD361E96FC3F00A1D2BA /* AppDelegate.swift in Sources */,
+				A0FE40811E973ED800306678 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				A072CD461E96FC3F00A1D2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
